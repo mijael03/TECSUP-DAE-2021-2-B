@@ -11,4 +11,4 @@ def resta(request,a,b):
     return HttpResponse("El resultado de la resta es %s." % c)
 def multiply(request,a,b):
     c=a*b
-    return HttpResponse("El resultado de la multiplicación es %s." % c)
+    return HttpResponse("El resultado de la multiplicación es %s." % c) 
