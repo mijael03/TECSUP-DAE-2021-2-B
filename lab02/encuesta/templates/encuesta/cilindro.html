@@ -1,0 +1,10 @@
+<h1>CALCULO DEL VOLUMEN DE UN CiLINDRO</h1>
+<form action="{% url 'encuesta:result' %}" method="post">
+    {% csrf_token %}
+    Introduzca el diámetro en metros:
+    <input type="text" name="diametro">
+    Introduzca la altura en metros:
+    <input type="text" name="altura">
+    <input type="submit" value="Calcular">
+
+</form>
