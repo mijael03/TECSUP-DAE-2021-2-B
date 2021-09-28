@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="card text-center">
+    <div class="card-header">
+      Producto
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">{{ producto.nombre }}</h5>
+      <p class="card-text">{{producto.precio}}</p>
+      <a href="#" class="btn btn-primary">COMPRAR</a>
+    </div>
+    <div class="card-footer text-muted">
+      {{producto.pub_date}}
+    </div>
+  </div>
+{% endblock %} 
